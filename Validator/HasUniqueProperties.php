@@ -12,11 +12,11 @@ namespace Rodgermd\UniqueNotNullEntityBundle\Validator;
 use Symfony\Component\Validator\Constraint;
 
 /**
- * Class UniqueIfNotNull
+ * Class HasUniqueProperties
  * @package Site\BaseBundle\Validator
  * @Annotation
  */
-class HasUniqueIfNotNull extends Constraint
+class HasUniqueProperties extends Constraint
 {
     public function getTargets()
     {
