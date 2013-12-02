@@ -1,0 +1,6 @@
+services:
+  rodgermd.validator.unique_entity_notnull:
+    class: Rodgermd\UniqueNotNullEntityBundle\Validator\UniqueIfNotNullValidator
+    arguments: [@doctrine.orm.default_entity_manager, @annotation_reader]
+    tags:
+      - { name: validator.constraint_validator, alias: rodgermd.validator.unique_entity_notnull }
