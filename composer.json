@@ -1,0 +1,19 @@
+{
+  "name":"rodgermd/uniqueentitynotnull-bundle",
+  "description":"Check if entity is unique if not null",
+  "homepage":"https://github.com/rodgermd/UniqueNotNullEntity",
+  "type":"symfony-bundle",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Alexander Murashov",
+      "email":"rodger@ladela.com"
+    }
+  ],
+    "autoload":{
+    "psr-0":{
+      "Rodgermd\\UniqueNotNullEntityBundle":""
+    }
+  },
+  "target-dir":"Rodgermd/UniqueNotNullEntityBundle"
+}
