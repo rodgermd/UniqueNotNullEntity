@@ -75,7 +75,7 @@ class UniqueIfNotNullValidator extends ConstraintValidator
     {
         $properties = array();
         foreach ($class->getProperties() as $property) {
-            if ($this->reader->getPropertyAnnotation($property, 'Site\BaseBundle\Validator\UniqueIfNotNull\UniqueProperty')) {
+            if ($this->reader->getPropertyAnnotation($property, 'Rodgermd\UniqueNotNullEntityBundle\Validator\UniqueProperty')) {
                 $properties[] = $property;
             }
         }
